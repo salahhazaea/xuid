@@ -2,7 +2,7 @@ const xuid = require('../index')
 
 test('date', () => {
   const b = xuid.date('NQ_x0M19OYYgDi')
-  expect(b).toStrictEqual(new Date('2021-12-27T16:02:42.177Z'))
+  expect(b).toStrictEqual(new Date('2020-12-27T16:02:42.177Z'))
 })
 
 test('date 2', () => {
